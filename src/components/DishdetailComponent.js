@@ -14,11 +14,10 @@ import {Card, CardImg, CardText, CardBody, CardTitle} from 'reactstrap';
         </Card>
       )
     
-    else {
+    else 
       return(
         <div></div>
       )
-    }
   }
 
   function RenderComments({comments}) {
